@@ -1,0 +1,81 @@
+#heading{
+    display: flex;
+    justify-content: center;
+    background-color: darkolivegreen;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 60px 440px;
+    border: 1px solid;
+    box-shadow: 5px 10px #888888;
+    animation: clock 8s infinite;
+}
+@keyframes clock {
+  0%   {background-color: rgb(96, 238, 77);}
+  25%  {background-color: rgb(0, 225, 255);}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+#current-time{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+#timer{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+ #content{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 135px;
+    margin: -60px 440px;
+    border: 1px solid;
+    box-shadow: 5px 10px #888888;
+        animation: clock 8s infinite;
+      }
+      @keyframes clock {
+        0%   {background-color: rgb(96, 238, 77);}
+        25%  {background-color: rgb(0, 225, 255);}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+      }
+
+#alarm-btn{
+     
+    border:2px solid black;
+
+    border-radius: 8px;
+    background-color: aqua;
+    opacity: 50%;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+}
+
+#start-btn{
+    border:2px solid black;
+    border-radius: 8px;
+    background-color: aqua;
+    opacity: 50%;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+}
+
+#stop-btn{
+    border:2px solid black;
+    border-radius: 8px;
+    background-color: aqua;
+    opacity: 50%;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+}
+
+#input-hours{
+    border-radius:8px ;
+}
+#input-minute{
+    border-radius:8px ;
+}
+
+#input-seconds{
+    border-radius:8px ;
+}
