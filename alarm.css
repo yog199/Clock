@@ -1,6 +1,5 @@
 #heading{
-    display: flex;
-    justify-content: center;
+
     background-color: darkolivegreen;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -19,15 +18,16 @@
 #current-time{
     font-weight: 300;
     font-size: 1.6rem;
+    text-align: center;
 }
 #timer{
     font-weight: 300;
     font-size: 1.6rem;
+    text-align: center;
 }
  #content{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding-left: 135px;
     margin: -60px 440px;
     border: 1px solid;
     box-shadow: 5px 10px #888888;
@@ -58,6 +58,7 @@
     opacity: 50%;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+    text-align: center;
 }
 
 #stop-btn{
@@ -67,10 +68,12 @@
     opacity: 50%;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+    text-align: center;
 }
 
 #input-hours{
     border-radius:8px ;
+    
 }
 #input-minute{
     border-radius:8px ;
@@ -78,4 +81,13 @@
 
 #input-seconds{
     border-radius:8px ;
+}
+
+#start-stop{
+    display: flex;
+    justify-content: center;
+}
+#last-btns{
+    display: flex;
+    justify-content: center;
 }
