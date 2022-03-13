@@ -10,25 +10,25 @@
 <body>
     
  <div id="heading">
-    <h1 style="color:cyan;">Clock</h1>
+    <h1 style="color:cyan; text-align: center;">Clock</h1>
 </div> 
 
 <div id="content">
-<h2 >Simple Clock</h2>
+<h2 style="text-align: center;">Simple Clock</h2>
 <div id="current-time">
 </div>
 
-<h2>Timer</h2>
+<h2 style="text-align: center;">Timer</h2>
 <div id="timer">
   00:00:00:00
-</div>
-<button id="start-btn" onclick="startTimer()">Start</button>
-<button id="stop-btn" onclick="stopTimer()">Stop</button>
-<h2>Alarm clock</h2>
-<input id="input-hours" type="number" min="0" max="24"/>
+</div>  <div id="start-stop">
+  <button id="start-btn" onclick="startTimer()">Start</button>
+<button id="stop-btn" onclick="stopTimer()">Stop</button> </div>
+<h2 style="text-align: center;">Alarm clock</h2>
+ <div id="last-btns"><input id="input-hours" type="number" min="0" max="24"/>
 <input id="input-minute" type="number" min="0" max="59"/>
 <input id="input-seconds" type="number" min="0" max="59">
-<button id="alarm-btn"  onclick="setAlarm()">Set</button>
+<button id="alarm-btn"  onclick="setAlarm()">Set</button> </div>
 
 </div>
 
