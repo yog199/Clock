@@ -1,19 +1,4 @@
-#heading{
 
-    background-color: darkolivegreen;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin: 60px 440px;
-    border: 1px solid;
-    box-shadow: 5px 10px #888888;
-    animation: clock 8s infinite;
-}
-@keyframes clock {
-  0%   {background-color: rgb(96, 238, 77);}
-  25%  {background-color: rgb(0, 225, 255);}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-}
 
 #current-time{
     font-weight: 300;
@@ -25,62 +10,48 @@
     font-size: 1.6rem;
     text-align: center;
 }
- #content{
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin: -60px 440px;
-    border: 1px solid;
-    box-shadow: 5px 10px #888888;
-        animation: clock 8s infinite;
-      }
-      @keyframes clock {
-        0%   {background-color: rgb(96, 238, 77);}
-        25%  {background-color: rgb(0, 225, 255);}
-        50%  {background-color: blue;}
-        100% {background-color: green;}
-      }
-
 #alarm-btn{
-     
-    border:2px solid black;
-
+    color: white;
     border-radius: 8px;
-    background-color: aqua;
-    opacity: 50%;
-    font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+    background-color: #000000d0;
+    outline: none;
+    border: none;
 }
 
 #start-btn{
-    border:2px solid black;
+    color: white;
     border-radius: 8px;
-    background-color: aqua;
-    opacity: 50%;
-    font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+    background-color: #000000d0;
     text-align: center;
+    outline: none;
+    border: none;
 }
 
 #stop-btn{
-    border:2px solid black;
+    color: white;
     border-radius: 8px;
-    background-color: aqua;
-    opacity: 50%;
-    font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+    background-color: #000000d0;
     text-align: center;
+    outline: none;
+    border: none;
 }
 
 #input-hours{
     border-radius:8px ;
+    outline: none;
+    border: none;
     
 }
 #input-minute{
     border-radius:8px ;
+    outline: none;
+    border: none;
 }
 
 #input-seconds{
     border-radius:8px ;
+    outline: none;
+    border: none;
 }
 
 #start-stop{
@@ -90,4 +61,28 @@
 #last-btns{
     display: flex;
     justify-content: center;
+    outline: none;
+    border: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?clock');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.frame{
+ 
+    background: #000000d0;
+    color:white;
+    padding: 2em;
+    border-radius: 35px;
+    width: 100%;
+    max-width: fit-content;
+    
+
 }
